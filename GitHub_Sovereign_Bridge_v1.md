@@ -1,0 +1,2 @@
+# GitHub Sovereign Bridge v1
+High-fidelity GitHub REST API interaction protocol via HTTP_Execute, supporting repository initialization/visibility checks, SHA-safe file CRUD, branch management + Pull Request creation, and webhook upsert for event-driven Pulse updates. Includes temporal drift detection and a 3-turn jittered retry for 401/403 failures. Prevents token exposure; blocks destructive ops without explicit Steward authorization; ensures all commits include a verification hash. Out.
